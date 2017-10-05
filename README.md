@@ -68,37 +68,37 @@ Stringlish.firstLettersUpper("hello world");
 
 -
 
-#### Stringlish.camelCase(*str*);
+#### Stringlish.toCamelCase(*str*);
 
 ```
-Stringlish.camelCase("hello world");
+Stringlish.toCamelCase("hello world");
 // helloWorld
 ```
 
 -
 
-#### Stringlish.pascalCase(*str*);
+#### Stringlish.toPascalCase(*str*);
 
 ```
-Stringlish.pascalCase("hello world");
+Stringlish.toPascalCase("hello world");
 // HelloWorld
 ```
 
 -
 
-#### Stringlish.snakeCase(*str*);
+#### Stringlish.toSnakeCase(*str*);
 
 ```
-Stringlish.snakeCase("hello world");
+Stringlish.toSnakeCase("hello world");
 // hello_world
 ```
 
 -
 
-#### Stringlish.kebabCase(*str*);
+#### Stringlish.toKebabCase(*str*);
 
 ```
-Stringlish.kebabCase("hello world");
+Stringlish.toKebabCase("hello world");
 // hello-world
 ```
 

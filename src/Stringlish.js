@@ -36,7 +36,7 @@ class Stringlish {
    * @param   {String} str The string to convert.
    * @returns {String} The converted string.
    */
-  static camelCase(str) {
+  static toCamelCase(str) {
     return str.slice(0, 1).toLowerCase() + Stringlish.firstLettersUpper(str).slice(1).replace(/\s+/g, "");
   }
 
@@ -45,7 +45,7 @@ class Stringlish {
    * @param   {String} str The string to convert.
    * @returns {String} The converted string.
    */
-  static pascalCase(str) {
+  static toPascalCase(str) {
     return Stringlish.firstLettersUpper(str).replace(/\s+/g, "");
   }
 
@@ -54,7 +54,7 @@ class Stringlish {
    * @param   {String} str The string to convert.
    * @returns {String} The converted string.
    */
-  static snakeCase(str) {
+  static toSnakeCase(str) {
     return str.toLowerCase().replace(/\s+/g, "_");
   }
 
@@ -63,7 +63,7 @@ class Stringlish {
    * @param   {String} str The string to convert.
    * @returns {String} The converted string.
    */
-  static kebabCase(str) {
+  static toKebabCase(str) {
     return str.toLowerCase().replace(/\s+/g, "-");
   }
 
