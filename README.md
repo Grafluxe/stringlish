@@ -194,24 +194,6 @@ Stringlish.addOrdinalIndicator(103);
 
 -
 
-#### Stringlish.parseMath(*str*);
-
-```
-Stringlish.parseMath("2+2");
-// 4
-
-Stringlish.parseMath("(5-3)*2");
-// 4
-
-Stringlish.parseMath("5-3*2");
-// -1
-
-Stringlish.parseMath("-10+-2");
-// -12
-```
-
--
-
 #### Stringlish.readableNumber(*num*);
 
 ```

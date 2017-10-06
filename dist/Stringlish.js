@@ -59,8 +59,8 @@ var Stringlish = function () {
      */
 
   }, {
-    key: "camelCase",
-    value: function camelCase(str) {
+    key: "toCamelCase",
+    value: function toCamelCase(str) {
       return str.slice(0, 1).toLowerCase() + Stringlish.firstLettersUpper(str).slice(1).replace(/\s+/g, "");
     }
 
@@ -71,8 +71,8 @@ var Stringlish = function () {
      */
 
   }, {
-    key: "pascalCase",
-    value: function pascalCase(str) {
+    key: "toPascalCase",
+    value: function toPascalCase(str) {
       return Stringlish.firstLettersUpper(str).replace(/\s+/g, "");
     }
 
@@ -83,8 +83,8 @@ var Stringlish = function () {
      */
 
   }, {
-    key: "snakeCase",
-    value: function snakeCase(str) {
+    key: "toSnakeCase",
+    value: function toSnakeCase(str) {
       return str.toLowerCase().replace(/\s+/g, "_");
     }
 
@@ -95,8 +95,8 @@ var Stringlish = function () {
      */
 
   }, {
-    key: "kebabCase",
-    value: function kebabCase(str) {
+    key: "toKebabCase",
+    value: function toKebabCase(str) {
       return str.toLowerCase().replace(/\s+/g, "-");
     }
 
